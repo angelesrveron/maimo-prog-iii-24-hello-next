@@ -3,6 +3,7 @@ import Card from "./components/Card/card.js";
 import Footer from "./components/Footer/footer.js";
 import Hero from "./components/Hero/hero.js";
 import CardsGrid from "./components/Cardsgrid/cardsgrid.js";
+import FetchGrid from "@/app/components/FetchGrid/FetchGrid.js"
 /**/
 export default function Home() {
   const data = [
@@ -74,6 +75,7 @@ export default function Home() {
       <CardsGrid cards={data} />
 
       <Footer compania={"Maimo"} footer={footerItems} />
+      <FetchGrid />
     </main>
   );
 }

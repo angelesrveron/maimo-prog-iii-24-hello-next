@@ -1,8 +1,17 @@
+
+
 import Card from "@/app/components/Card/card";
 import styles from "./cardsgrid.module.css";
 
+
 const CardsGrid = ({ cards }) => {
+
+
+
+  
   return (
+    <div>
+      {/* <button onClick={handleGetData}>get album</button> */}
     <div className={`${styles["container"]} grid`}>
       {cards.map((cards, index) => (
         <div key={index} className={`col_4 col_mb_12`}> 
@@ -14,6 +23,7 @@ const CardsGrid = ({ cards }) => {
         />
         </div>
       ))}
+    </div>
     </div>
   );
 };
