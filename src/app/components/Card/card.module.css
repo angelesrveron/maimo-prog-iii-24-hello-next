@@ -40,6 +40,9 @@ box-shadow: 0px 14px 44px 15px rgba(201, 223, 255);
   user-select: none;
   width: 70px;
 }
+.container p{
+  color: black;
+}
 
 .container button:hover,
 .container button:focus {
